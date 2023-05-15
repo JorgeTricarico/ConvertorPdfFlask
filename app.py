@@ -11,7 +11,7 @@ import io
 
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins='*')
 
 @app.route("/convert", methods=["POST"]) #POST
 def convert():
