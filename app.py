@@ -1,3 +1,5 @@
+import flask_cors
+
 from flask import Flask, request, send_file
 from flask_cors import CORS
 from werkzeug.wrappers import Response
